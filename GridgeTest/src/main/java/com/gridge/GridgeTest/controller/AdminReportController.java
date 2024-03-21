@@ -1,8 +1,6 @@
 package com.gridge.GridgeTest.controller;
 
-import com.gridge.GridgeTest.dto.SubscribeSearchDto;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

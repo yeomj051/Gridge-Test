@@ -1,7 +1,6 @@
 package com.gridge.GridgeTest.controller;
 
-import com.gridge.GridgeTest.dto.FeedSearchDto;
-import com.gridge.GridgeTest.dto.UserSearchDto;
+import com.gridge.GridgeTest.dto.request.FeedSearchDto;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;

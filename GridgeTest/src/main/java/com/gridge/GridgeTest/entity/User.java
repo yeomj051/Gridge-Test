@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicInsert;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity @Getter
@@ -23,12 +22,12 @@ public class User extends BaseEntity{
     @Column(columnDefinition = "INT UNSIGNED")
     private int id;
     @Column(nullable = false, length = 20)
-    private String login_id;
+    private String loginId;
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 20)
     private Status status = Status.ACTIVE;
     @Column(updatable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
-    private LocalDateTime agree_date;
+    private LocalDateTime agreeDate;
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 20)
     private Role role = Role.REGULAR_USER;

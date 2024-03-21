@@ -1,8 +1,8 @@
 package com.gridge.GridgeTest.controller;
 
-import com.gridge.GridgeTest.dto.UserCreateDto;
-import com.gridge.GridgeTest.dto.UserLoginDto;
-import com.gridge.GridgeTest.dto.UserPasswordModifyDto;
+import com.gridge.GridgeTest.dto.request.UserCreateDto;
+import com.gridge.GridgeTest.dto.request.UserLoginDto;
+import com.gridge.GridgeTest.dto.request.UserPasswordModifyDto;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;

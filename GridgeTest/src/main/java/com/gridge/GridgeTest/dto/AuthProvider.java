@@ -1,4 +1,5 @@
 package com.gridge.GridgeTest.dto;
 
-public class UserPasswordModifyDto {
+public enum AuthProvider {
+    kakao
 }
